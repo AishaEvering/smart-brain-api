@@ -8,6 +8,8 @@ const profile = require("./controllers/profile.js");
 const email = require("./controllers/email.js");
 const imgProcessor = require("./controllers/imgProcessor.js");
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
+
 const db = knex({
   client: "pg",
   connection: {

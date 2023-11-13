@@ -81,6 +81,8 @@ app.get("/default", (req, res) => {
   res.sendFile(__dirname + "/public/South-Park.webp");
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`app is running on port ${process.env.PORT}`);
+const PORT = process.env.PORT;
+
+app.listen(PORT, () => {
+  console.log(`app is running on port ${PORT}`);
 });

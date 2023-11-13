@@ -16,7 +16,6 @@
     "clarifai-nodejs-grpc": "^9.10.1",
     "config": "^3.3.9",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "knex": "^3.0.1",
     "nodemailer": "^6.9.7",

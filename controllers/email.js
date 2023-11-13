@@ -13,8 +13,8 @@ const handleSendPasswordRecoveryEmail = () => (req, res) => {
     service: "gmail",
     secure: true,
     auth: {
-      user: process.env.EMAIL,
-      pass: process.env.EMAIL_PASSWORD,
+      user: process.env.APP_EMAIL,
+      pass: process.env.APP_EMAIL_PASSWORD,
     },
   });
   const mailOptions = {
